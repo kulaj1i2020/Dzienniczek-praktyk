@@ -1,0 +1,51 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li {
+  margin: 1rem;
+  min-width: 9rem;
+}
+a {
+  display: block;
+  padding: 0.7rem;
+  background-color: aquamarine;
+  text-align: center;
+  color: black;
+  border-radius: 0.7rem;
+}
+a:hover {
+  color: blueviolet;
+  background-color: black;
+}
+
+div {
+  padding: 1rem;
+  border: 0.1rem solid;
+  border-color: black;
+}
+form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border: 0.1rem solid;
+  border-color: black;
+}
+fieldset {
+  padding: 1rem;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
