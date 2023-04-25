@@ -5,6 +5,7 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script2.js" defer></script>
   </head>
   <body>
     <div>
@@ -29,8 +30,40 @@
         </fieldset>
         <fieldset>
           <legend>Opiekun</legend>
+          <p>
+             Piotr Kowalski<input type="radio" id="opiekun1" name="opiekun" >
+          </p>
+          <p>
+            Maria Konopnicka<input type="radio" id="opiekun2" name="opiekun" >
+          </p>
+          
+          <p>
+            Stefan Podkowa<input type="radio" id="opiekun3" name="opiekun" >
+          </p>
         </fieldset>
+        <fieldset>
+          <legend>Realizacja materiału</legend>
+          <label>Sprawozdanie: 
+            <textarea id="sprawozdanie" name="sprawozdanie"></textarea>
+          </label>
+          <label>Zrealizowano: <input type="checkbox" id="zrealizowano" name="zrealizowano"></label>
+          
+          <label>Ile godzin: <input type="text" id="czas" name="czas"></label>
+          <label>
+            Stopień opanowania materiału: 1<input type="range" id="stopien" name="stopien" min="1" max="6">6</e>
+          </label>
+          
+      </fieldset> 
+      <input type=submit id="index2btn"></input>
+      <input type=reset id="index2reset"></input>
       </form>
+      <section>
+        <div class="index2display">
+
+
+        </div>
+      </section>
+
       <footer>&copy: Kula</footer>
     </div>
   </body>
